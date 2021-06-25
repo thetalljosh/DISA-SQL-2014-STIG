@@ -8,7 +8,7 @@
 Function Set-SQLInstanceStigItems {
 <#
   .SYNOPSIS
-   Executes all of the SQL 2014 INSTANCE STIG settings included in the module.
+   Executes all of the SQL 2016 INSTANCE STIG settings included in the module.
  
   .DESCRIPTION
    The cmdlet runs each audit and configuration setting in the module.
@@ -120,12 +120,13 @@ Function Set-SQLInstanceStigItems {
    This cmdlet must be run with sysadmin permissions on the SQL instance and local admin access on the node or server supporting the instance.
     
    AUTHOR: Michael Haken
-   LAST UPDATE: 5/10/2016
+   LAST UPDATE: 6/25/2021
+   Update Author: Joshua Lambert
  
   .FUNCTIONALITY
  
    STIG
-    Microsoft SQL Server 2014 Instance V1R0
+    Microsoft SQL Server 2016 Instance V1R0
    STIG ID
     SQL4-00-011300
     SQL4-00-030400
